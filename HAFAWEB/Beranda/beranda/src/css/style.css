@@ -1,0 +1,42 @@
+body {
+    background-color: whitesmoke;
+}
+
+.foto {
+  width: 35%;
+  float: left;
+  padding: 2vh;
+}
+
+.garis {
+  border: dashed gold;
+  float: left;
+  width: 73%;
+  padding: 1vh;
+}
+
+.garis-1 {
+    border: dashed gold;
+    float: right;
+    width: 25%;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 36%;
+}
+
+.col-12 {
+    background-color: rgb(204, 174, 132);
+    text-align: center;
+}
+
+.collapse {
+    background-color: gold;
+}
+
+.form-inline {
+    margin-left: 38%;
+}

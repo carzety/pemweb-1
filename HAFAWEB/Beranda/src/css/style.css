@@ -1,0 +1,39 @@
+.col-12 {
+  background-color: rgb(204, 174, 132);
+  text-align: center;
+}
+
+.form-inline {
+  margin-left: 38%;
+}
+
+.tengah {
+  border: dashed gold;
+  padding: 2vh;
+}
+
+.tbawah {
+  display: flex;
+}
+
+.isi-dalam {
+  float: right;
+}
+
+.fa-angle-right {
+  margin-left: 1vh;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.collapse {
+  background-color: gold ;
+}

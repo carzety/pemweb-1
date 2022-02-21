@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HAFAWEB | Admin</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback"
+    />
+    <link
+      rel="stylesheet"
+      href="../../plugins/fontawesome-free/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../../dist/css/adminlte.min.css" />
+  </head>
+  <body class="hold-transition sidebar-mini">
+    <div class="wrapper">
+      <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="#" role="button"
+              ><i class="fas fa-bars"></i
+            ></a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              data-widget="navbar-search"
+              href="#"
+              role="button"
+            >
+              <i class="fas fa-search"></i>
+            </a>
+            <div class="navbar-search-block">
+              <form class="form-inline">
+                <div class="input-group input-group-sm">
+                  <input
+                    class="form-control form-control-navbar"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <div class="input-group-append">
+                    <button class="btn btn-navbar" type="submit">
+                      <i class="fas fa-search"></i>
+                    </button>
+                    <button
+                      class="btn btn-navbar"
+                      type="button"
+                      data-widget="navbar-search"
+                    >
+                      <i class="fas fa-times"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+              <i class="fas fa-expand-arrows-alt"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              data-widget="control-sidebar"
+              data-slide="true"
+              href="#"
+              role="button"
+            >
+              <i class="fas fa-th-large"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <aside class="main-sidebar sidebar-dark-primary elevation-4">
+        <a href="../../index3.html" class="brand-link">
+          <img
+            src="/Beranda/assets/img/Untitled design.png"
+            alt="AdminLTE Logo"
+            class="brand-image img-circle elevation-3"
+            style="opacity: 0.8"
+          />
+          <span class="brand-text font-weight-light">HAFAWEB</span>
+        </a>
+        <div class="sidebar">
+          <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+            <div class="image">
+              <img
+                src="/Beranda/assets/img/avatar.png"
+                class="img-circle elevation-2"
+                alt="User Image"
+              />
+            </div>
+            <div class="info">
+              <a href="#" class="d-block">Manusia Biasa</a>
+            </div>
+          </div>
+          <div class="form-inline">
+            <div class="input-group" data-widget="sidebar-search">
+              <input
+                class="form-control form-control-sidebar"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <div class="input-group-append">
+                <button class="btn btn-sidebar">
+                  <i class="fas fa-search fa-fw"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <nav class="mt-2">
+            <ul
+              class="nav nav-pills nav-sidebar flex-column"
+              data-widget="treeview"
+              role="menu"
+              data-accordion="false"
+            >
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-home"></i>
+                  <p>
+                    Dashboard
+                    <i class="right fas fa-angle-left"></i>
+                  </p>
+                </a>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Loker</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="/Beranda/src/daftar.html" class="nav-link">
+                  <i class="fas fa-handshake"></i>
+                  <p>Mitra</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-tasks"></i>
+                  <p>Berita</p>
+                </a>
+              </li>
+              <li class="nav-header">TENTANG KAMI</li>
+              <li class="nav-item">
+                <a href="/Beranda/cover.html" class="nav-link">
+                  <i class="fas fa-users"></i>
+                  <p>
+                    HAFA'S TEAM
+                  </p>
+                </a>
+              </li>
+              <li class="nav-header">AKUN</li>
+              <li class="nav-item">
+                <a href="/Beranda/login/login.html" class="nav-link">
+                  <i class="fas fa-sign-out-alt"></i>
+                  <p>Logout</p>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </aside>
+      <div class="content-wrapper">
+        <section class="content-header">
+          <div class="container-fluid">
+            <div class="row mb-2">
+              <div class="col-md-12 text-center">
+                <h1>Sistem Informasi Lowongan Kerja NF - SILOKERNF</h1>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr style="border: dashed;">
+        <fieldset>
+          <div style="display: flex; padding: 0vh 5vh;">
+          <h3>Kelola Mitra</h3>
+          <div style="margin-left: 75%">
+          <a href="#"><u>Beranda</u></a>
+          <i class="fas fa-angle-right"></i>
+          <a><b>Admin</b></a>
+        </div>
+        </div>
+        <button type="button" class="btn btn-warning" style="margin: 0vh 3vh;">Tambahkan</button>
+        <div class="card mt-3">
+          <table id="example2" class="table table-bordered table-hover" style="overflow-x: auto;">
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Nama Perusahaan</th>
+                <th>Bidang Usaha</th>
+                <th>Kontak Personal</th>
+                <th>Email</th>
+                <th>Telepon</th>
+                <th>Alamat Web</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>PT Pertamina (Persero)</td>
+                <td>Industri</td>
+                <td>Ahmad Najib</td>
+                <td>ahman.pertamina@gmail.com</td>
+                <td>0813 2671 1112</td>
+                <td>http://pertamina-ahman.spbu.co.id</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>PT Aplikasi Karya Anak Bangsa
+                </td>
+                <td>Transportasi</td>
+                <td>Praditya Herawan</td>
+                <td>praditya@gojek.co.id</td>
+                <td>0812 7630 2153</td>
+                <td>http://gojek-mitra-pradityacp.co.id</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>KULOGROUP
+                </td>
+                <td>Minuman</td>
+                <td>William Amartapraja</td>
+                <td>kulo.wamar@gmail.com</td>
+                <td>0877 9160 3375</td>
+                <td>http://kulogroup-personal-wamar.co.id</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>PT Bank Mandiri (Persero) Tbk
+                </td>
+                <td>Perbankan</td>
+                <td>Arini Sugiarta P</td>
+                <td>arinip.mandiri@cpersonal.com</td>
+                <td>0812 3710 9165</td>
+                <td>http://personal-arinip-mandiri.com</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>PT Bank Central Asia (Tbk)</td>
+                <td>Perbankan</td>
+                <td>Yusrini Diana</td>
+                <td>dianayusrini28@bca.co.id</td>
+                <td>0878 2146 7240</td>
+                <td>http://bca-personal-dianayusrini28.co.id</td>
+                
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>PT Rasa Muda Makmur</td>
+                <td>Makanan</td>
+                <td>Arief Muhammad</td>
+                <td>ariefmuhammad@gmail.com</td>
+                <td>0812 7374 0255</td>
+                <td>http://armuh-team-akang.co.id</td>
+               
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Bittersweet by Najla</td>
+                <td>Makanan</td>
+                <td>Najla Al-Athrus</td>
+                <td>ask.alaasweet@gmail.com</td>
+                <td>0857 6174 4989</td>
+                <td>http://ask-najla-bittersweet.com</td>
+                
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>PT Inspirasi Bisnis Nusantara</td>
+                <td>Minuman+</td>
+                <td>Marisha Inggrit</td>
+                <td>inggrit@tanyahaus.co.id</td>
+                <td>0856 4050 2214</td>
+                <td>http://inggris.tanyahaus.co.id</td>
+                
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>PT Indomarco Prismatama</td>
+                <td>industri</td>
+                <td>Kevin Hartanto</td>
+                <td>indo.kevin@gmail.com</td>
+                <td>0812 7171 8036</td>
+                <td>http://indomaret.sapakevin.com</td>
+                
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>Grab</td>
+                <td>Transportasi</td>
+                <td>Radeon Putra A</td>
+                <td>halo.radeon@grab.co.id</td>
+                <td>0878 1056 7321</td>
+                <td>http://grab.id-radeonputra.co.id</td>
+              
+              </tr>
+            </tfoot>
+          </table>
+        </fieldset>
+        </div>
+      <footer class="main-footer">
+        <strong
+          >&copy;HAFAWEB 2022.
+        All Rights Reserved.
+      </footer>
+      <aside class="control-sidebar control-sidebar-dark">
+      </aside>
+    </div>
+
+    <!-- jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="dist/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="dist/js/demo.js"></script>
+  </body>
+</html>
